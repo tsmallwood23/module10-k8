@@ -7,7 +7,7 @@ spec:
   rules:
     - host: dashboard.com
     - http:
-        paths:
+      - paths:
           backend:
               service: kubernetes-dashboard
               port:
