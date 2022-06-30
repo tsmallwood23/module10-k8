@@ -6,7 +6,7 @@ metadata:
 spec:
   rules:
     - host: dashboard.com
-    - http:
+      http:
       - paths:
           backend:
               service: kubernetes-dashboard
