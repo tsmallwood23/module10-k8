@@ -5,9 +5,9 @@ metadata:
   namespace: kubernetes-dashboard
 spec:
   rules:
-    - host: dashboard.com
-      http:
-      - paths:
+  - http:
+      - host: dashboard.com
+      paths:
           backend:
               service: kubernetes-dashboard
               port:
